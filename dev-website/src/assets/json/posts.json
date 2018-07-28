@@ -1,0 +1,22 @@
+{
+    "Posts": [
+        {
+            "Id": 1,
+            "Title": "Post 1",
+            "Body": "Here's post 1's body",
+            "TimeStamp": "6/30/2018"
+        },
+        {
+            "Id": 2,
+            "Title": "Post 2",
+            "Body": "Here's post 2's body",
+            "TimeStamp": "6/30/2018"
+        },
+        {
+            "Id": 3,
+            "Title": "Post 3",
+            "Body": "Here's post 3's body",
+            "TimeStamp": "6/30/2018"
+        }
+    ]
+}
