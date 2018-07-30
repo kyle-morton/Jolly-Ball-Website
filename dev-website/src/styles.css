@@ -1,41 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
-
-/* div.main-content {
-    margin-top: 50px;
-}
-
-.pointer {
-    cursor: pointer !important;
-}
-
-.pointer:hover {
-    text-decoration: underline !important;
-}
-
-.item-line {
-    margin-top: 15px;
-    margin-bottom: 12px;
-    text-align: center;
-}
-
-.item-titles h1 {
-    font-size: 30px;
-    display: inline;
-    line-height: 4rem;
-    font-family: 'Radley', serif;
-}
-
-.item-list a {
-    color: #000 !important;
-    padding-bottom: 3px;
-} */
-
-
-
 body {
     font-family: 'Open Sans', serif;
     padding-top: 54px;
     color: #868e96;
+    background-color: #FFFCF2;
   }
   
   @media (min-width: 992px) {
@@ -44,6 +11,14 @@ body {
       padding-left: 17rem;
     }
   }
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.pointer:hover {
+    text-decoration: underline !important;
+}
   
   h1,
   h2,
@@ -74,11 +49,11 @@ body {
   }
   
   .list-social-icons a {
-    color: #495057;
+    color: #E25B36;
   }
   
   .list-social-icons a:hover {
-    color: #006400;
+    color: #E25B36;
   }
   
   .list-social-icons a .fa-lg {
@@ -90,7 +65,7 @@ body {
   }
   
   .list-icons .list-inline-item i:hover {
-    color: #006400;
+    color: #E25B36;
   }
   
   #sideNav .navbar-nav .nav-item .nav-link {
@@ -165,18 +140,18 @@ body {
   }
   
   .bg-primary {
-    background-color: #006400 !important;
+    background-color: #173753 !important;
   }
   
   .text-primary {
-    color: #006400 !important;
+    color: #E25B36 !important;
   }
   
   a {
-    color: #006400;
+    color: #E25B36;
   }
   
   a:hover, a:focus, a:active {
-    color: #006400;
+    color: #E25B36;
   }
   
