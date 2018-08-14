@@ -19,6 +19,7 @@ import { LoginComponent } from './components/login/login.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { AchievementsComponent } from './components/achievements/achievements.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     LoginComponent,
     ExperienceComponent,
     EducationComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    AchievementsComponent
   ],
   imports: [
     AngularFireModule.initializeApp(environment.firebase),
