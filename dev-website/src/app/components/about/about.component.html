@@ -3,16 +3,15 @@
       <h1 class="mb-0">Kyle
         <span class="text-primary">Morton</span>
       </h1>
-      <div class="subheading mb-5">Little Rock, AR 72211 · (870) 240-6093 ·
-        <a href="mailto:mkmorton91@email.com">mkmorton91@email.com</a>
+      <div class="subheading mb-5">{{bio.Address}} · {{bio.Phone}} ·
+        <a [href]="'mailto:' + links.email">{{links.email}}</a>
       </div>
       <p class="mb-5">
-        I'm a software developer at Dassault Falcon Jet in Little Rock, AR. 
-        I like coding, teaching others, watching professional wresting, and video games (basically anything that excludes being in sunlight).
+        {{bio.Body}}
     </p>
       <ul class="list-inline list-social-icons mb-0">
         <li class="list-inline-item">
-          <a [href]="linkedIn" target="_blank">
+          <a [href]="links.linkedIn" target="_blank">
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -20,7 +19,7 @@
           </a>
         </li>
         <li class="list-inline-item">
-          <a [href]="github" target="_blank">
+          <a [href]="links.github" target="_blank">
             <span class="fa-stack fa-lg">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-github fa-stack-1x fa-inverse"></i>

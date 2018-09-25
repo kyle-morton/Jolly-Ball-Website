@@ -8,18 +8,12 @@ import { environment } from '../../../environments/environment';
 })
 export class AboutComponent implements OnInit {
 
-  public title: string;
-  public linkedIn : string;
-  public github : string;
-  public email: string;
+  public bio = environment.config.Bio;
+  public links = environment.config.Links;
 
   constructor() { }
 
   ngOnInit() {
-    this.title = "Hi, I'm Kyle";
-    this.linkedIn = environment.links.linkedin;
-    this.github = environment.links.github;
-    this.email = environment.links.email;
   }
 
 }
